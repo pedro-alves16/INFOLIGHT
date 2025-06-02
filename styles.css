@@ -59,6 +59,9 @@ body{
     border-radius: 6px;
     width:6rem;
     font-family: var(--fonte-texto);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .first-section{
