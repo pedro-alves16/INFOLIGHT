@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fonte-texto);
+    background-color: #1B252C;
+}
+
+:root{
+    --cor-do-texto: #9DAFBD;
+    --fonte-texto: 'Roboto';
+    --verde-destaque: #00FF88;
+    --cinza: #9DAFBD;
+}
+
+.cabecalho{
+    background-color: #1C252C;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.cabecalho-lista{
+    display:flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo-name{
+    display:flex;
+    text-align: center;
+    align-items: center;
+}
+
+.header-title{
+    color:#00FF88;
+}
+
+.cabecalho-lista-itens{
+    text-decoration: none;
+    color: var(--cor-do-texto);
+    font-family: var(--fonte-texto);
+}
+
+.cabecalho-lista-itens:hover{
+    color:var(--verde-destaque);
+}
+
+.login-button:hover{
+    background-color: #0d7d81;
+}
+
+.cabecalho-links{
+    display: flex;
+    align-items: center;
+}
+
+.login-button{
+    color: #000814;
+    background-color: #00FF88;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    width:6rem;
+    font-family: var(--fonte-texto);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.first-section{
+    display: flex;
+    align-items: center;
+    margin-top: 8em;
+    justify-content: space-around;
+}
+
+.first-section-text{
+    text-wrap: wrap;
+    color: var(--cinza);
+    
+}
+
+.section-text{
+    width: 40%;
+}
+
+.first-section-title{
+    color:var(--verde-destaque);
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+.second-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 8em;
+    padding: 6rem 6.5rem;
+    background-color: #6c8797;
+}
+
+.second-section-items {
+    width: 40%;
+}
+
+.second-section-title {
+    color: #1B252C;
+}
+
+.second-section-text {
+    text-wrap: wrap;
+}
+
+.rodape{
+    padding:2em;
+    text-align: center;
+    color: var(--verde-destaque);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 3em;
+}
+
+.third-text h2{
+    color: var(--verde-destaque);
+    font-size: 36px;
+    margin-bottom: 0.5em;
+}
+
+.third-section{
+    margin-bottom: 3em;
+}
+
+.third-text p{
+    color: var(--cinza);
+}
+
+.third-text{
+    padding-top: 5rem;
+    display: flex;
+        text-align: center;
+        flex-direction: column;
+}
+
+.item-title{
+    color:#00FF88;
+}
+
+.main-grid{
+    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.items-column{
+    display: flex;
+}
+
+.first-column{
+    list-style: none;
+    display: flex;
+    
+}
+
+.second-column{
+    list-style: none;
+}
+
+.items-column-first{
+    display: flex;
+    justify-content: center;
+}
+
+.items-column-second{
+    display: flex;
+    justify-content: center;
+}
+
+.second-column{
+    display: flex;
+}
+
+.grid-item{
+    display: flex;
+    align-items: center;
+    margin: 1em 
+}
+.grid-item img{
+    margin-right:1em;
+}
+
+.grid-item p{
+    color:var(--verde-destaque);
+}
+
+.swiper-section-link{
+    text-decoration: none;
+    background-color: #00FF88;
+    color: #000814;
+    font-family: var(--fonte-texto);
+    padding:1em;
+    border-radius: 8px;;
+    font-weight: 700;
+}
+
+.teste-card p{
+    color: var(--cor-do-texto);
+}
+
+.card-list .card-item{
+    user-select: none;
+    display:block;
+}
+
+.card-list .card-img{
+    width:25%;
+    margin-left: 36%;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-button-prev{
+    margin-left: 32%;
+}
+
+.swiper-button-next{
+    margin-right: 35%;
+}
+
+.swiper-pagination{
+    display: none;
+}
+
+.contact-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#9DAFBD;
+    font-size: 18px;
+    height: 50vh;
+}
+
+.first-section-title,.contact{
+    margin: 1em 0;
+} 
+
+.contatos-itens{
+    margin-top: 1em;
+}
+
