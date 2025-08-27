@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #26313A;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-container{
+    background-color: #1B202C;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height:500px;
+    border-radius: 8px;
+    
+}
+
+.login-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    width:100%;
+}
+
+.label-email{
+    display: flex;
+    flex-direction: column;
+}
+
+.label-senha{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-title{
+    color:#ffff;
+}
+
+label{
+    color: #ffff;
+}
+
+.input-email, .input-senha{
+    background-color: #9DAFBD;
+    border: none;
+    padding: 0.8em;
+    border-radius: 8px;
+    margin-top: 0.5em;
+    width: 400px;
+}
+
+.login-button{
+    background-color: #00FF88;
+    color: #ffff;
+    border: none;
+    padding: 1em;
+    width:40%;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.criar-conta{
+    color: #9DAFBD;
+    font-weight: 400;
+}
+
+
+.input-email::placeholder, .input-senha::placeholder{
+    text-align:center;
+}
+
+.dropdown{
+    background-color: #9DAFBD;
+    padding: 0.8em;
+    border-radius: 8px;
+    font-family: "Roboto";
+}
+
+.dropdown-format{
+    margin-right: 50%;
+}
