@@ -1,4 +1,4 @@
-new Swiper('.card-wrapper', {
+new swiper('.card-wrapper', {
   loop: true,
 
   // 
